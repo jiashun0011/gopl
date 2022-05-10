@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"bytes"
+	"fmt"
 )
 
 func intsToString(values []int) string {
@@ -19,5 +19,5 @@ func intsToString(values []int) string {
 }
 
 func main() {
-    fmt.Println(intsToString([]int{1, 2, 3}))
+	fmt.Println(intsToString([]int{1, 2, 3}))
 }
