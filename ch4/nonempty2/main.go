@@ -3,11 +3,11 @@ package main
 import "fmt"
 
 func nonempty2(strings []string) []string {
-    // out := strings[:0]
-    out := []string{}
+	// out := strings[:0]
+	out := []string{}
 	for _, s := range strings {
 		if s != "" {
-		    out = append(out, s)
+			out = append(out, s)
 		}
 	}
 
