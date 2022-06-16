@@ -1,4 +1,4 @@
-package manin
+package main
 
 import (
 	"image"
