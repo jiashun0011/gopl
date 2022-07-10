@@ -1,4 +1,4 @@
-# include <bzlib.h>
+#include <bzlib.h>
 
 int bz2compress(bz_stream *s, int action,
     char *in, unsigned *inlen, char *out, unsigned *outlen) {
@@ -11,5 +11,6 @@ int bz2compress(bz_stream *s, int action,
   *inlen -= s->avail_in;
   *outlen -= s->avail_out;
   s->next_in = s->next_out = NULL;
+
   return r;
 }
